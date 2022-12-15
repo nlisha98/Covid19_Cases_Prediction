@@ -1,4 +1,4 @@
-## Badges
+## 
 ![NumPy](https://img.shields.io/badge/numpy-%23013243.svg?style=for-the-badge&logo=numpy&logoColor=white) 
 ![Pandas](https://img.shields.io/badge/pandas-%23150458.svg?style=for-the-badge&logo=pandas&logoColor=white) 
 ![scikit-learn](https://img.shields.io/badge/scikit--learn-%23F7931E.svg?style=for-the-badge&logo=scikit-learn&logoColor=white) 
@@ -60,6 +60,23 @@ The purpose of this project is to create a Deep Learning model by using LSTM neu
   <li>Model Summary</li>
 </ul>
 
+#### Model Architecture
+
+<p>
+
+My model architecture used in this project are as follows where I used LSTM and Dropout as my hidden layers and Dense as my output layer with 64 nodes for each layer.
+
+</p>
+
+<p align="center">
+   <img
+    src="Model/model_architecture.png"
+    alt="Model Architecture"
+    title="Model Architecture"
+    width=300>
+    
+ </p>
+ 
 (G). Model Compilation <br>
 
 <ul>
@@ -95,31 +112,12 @@ The purpose of this project is to create a Deep Learning model by using LSTM neu
   <li>Evaluate the performance by using MAPE and MAE</li>
 </ul>
 
-(K). Model Saving
+#### Model Performance
+<p>
 
-<ul>
-  <li>Save the model</li>
-    <ul>
-      <li>Min-Max Scaler</li>
-      <li>Save Model</li>
-    </ul>
-</ul>
+My model performance that I get from this project are as follows where I used Mean Absolute Percentage Error (MAPE) and Mean Absolute Error (MAE) to evaluate the performance. This value can be improved by adjusting the hidden layers in Model Development.
 
-
-
-## Results
-### Model Architecture
-
-<p align="center">
-   <img
-    src="Model/model_architecture.png"
-    alt="Model Architecture"
-    title="Model Architecture"
-    width=300>
- </p>
-  
-  
-### Model Performance
+</p>
 
 <p align="center">
   <img
@@ -128,7 +126,18 @@ The purpose of this project is to create a Deep Learning model by using LSTM neu
   title="Model Performance"
   width = 300>
 </p>
-    
+
+(K). Model Saving
+
+<ul>
+  <li>Save the model</li>
+    <ul>
+      <li>Min-Max Scaler</li>
+      <li>Deep Learning Model</li>
+    </ul>
+</ul>
+
+## Results
 ### Predicted and Actual Graph
 
 <p align="center">
@@ -139,6 +148,26 @@ The purpose of this project is to create a Deep Learning model by using LSTM neu
   class = "center">
 </p>
  
+### TensorBoard Training Loss
+
+<p align="center">
+  <img
+  src="Model/Tensorboard Training Process/training_loss.PNG"
+  alt="Training Loss"
+  title="Training Loss"
+  class = "center">
+</p>
+
+### TensorBoard MAPE Loss
+
+<p align="center">
+  <img
+  src="Model/Tensorboard Training Process/training_mape.PNG"
+  alt="MAPE Loss"
+  title="MAPE Loss"
+  class = "center">
+</p>
+
 ## Acknowledgement
 Special thanks to **(GitHub - MoH-Malaysia/covid19-public: Official data on the COVID-19
 epidemic in Malaysia. Powered by CPRC, CPRC Hospital System,
