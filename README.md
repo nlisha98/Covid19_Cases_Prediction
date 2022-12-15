@@ -109,26 +109,35 @@ The purpose of this project is to create a Deep Learning model by using LSTM neu
 
 ## Results
 ### Model Architecture
-<img
-  src="Model/model_architecture.png"
-  alt="Model Architecture"
-  title="Model Architecture"
-  class = "center"
-  style="width:300px;height:500px;">
+
+<p align="center">
+   <img
+    src="Model/model_architecture.png"
+    alt="Model Architecture"
+    title="Model Architecture"
+    width=300>
+ </p>
+  
   
 ### Model Performance
+
+<p align="center">
   <img
   src="Model/testing_evaluation_metrics.PNG"
   alt="Model Performance"
   title="Model Performance"
-  class = "center">
+  width = 300>
+</p>
     
 ### Predicted and Actual Graph
+
+<p align="center">
   <img
   src="Model/graph_visualization.PNG"
   alt="Graph Visualization"
   title="Graph Visualization"
   class = "center">
+</p>
  
 ## Acknowledgement
 Special thanks to **(GitHub - MoH-Malaysia/covid19-public: Official data on the COVID-19
